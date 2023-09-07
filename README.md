@@ -22,7 +22,7 @@ pip install nltk numpy networkx
 ## Usage
 To generate a summary, follow these steps:
 
-Import the necessary libraries:
+1. Import the necessary libraries:
 ```python
 import nltk
 from nltk.corpus import stopwords
@@ -30,9 +30,9 @@ from nltk.cluster.util import cosine_distance
 import numpy as np
 import networkx as nx
 ```
-Define the functions `read_article`, `sentence_similarity`, `build_similarity_matrix`, and `generate_summary` as provided in the code.
+2. Define the functions `read_article`, `sentence_similarity`, `build_similarity_matrix`, and `generate_summary` as provided in the code.
 
-Call the `generate_summary` function with the path to the text file and the desired number of sentences in the summary. For example:
+3. Call the `generate_summary` function with the path to the text file and the desired number of sentences in the summary. For example:
 ```python
 generate_summary("Coding.txt", 2)
 ```
@@ -44,4 +44,4 @@ Note: The input text document should be in plain text format.
 This project was inspired by the field of NLP and its applications in text summarization. It incorporates various techniques and algorithms to achieve the goal of generating a summary from a given text document.
 
 ## Contact
-uditsathe@gmail.com .
+uditsathe@gmail.com 
