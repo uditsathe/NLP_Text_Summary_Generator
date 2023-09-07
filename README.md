@@ -14,6 +14,7 @@ This project requires the following dependencies:
 * nltk
 * numpy
 * networkx
+  
 You can install these dependencies using pip:
 ```
 pip install nltk numpy networkx
