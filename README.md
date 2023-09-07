@@ -1,5 +1,5 @@
 # NLP_Text_Summary_Generator
-This Python project implements a text summarization algorithm using Natural Language Processing (NLP) techniques. The algorithm aims to generate a summary of a given text document by extracting the most important sentences.
+This Python project implements a text summarization algorithm using _Natural Language Processing (NLP)_ techniques. The algorithm aims to generate a summary of a given text document by extracting the most important sentences.
 
 ## How it works
 1. The input text document is read and split into individual sentences.
@@ -11,9 +11,9 @@ This Python project implements a text summarization algorithm using Natural Lang
 ## Dependencies
 This project requires the following dependencies:
 
-..* nltk
-..* numpy
-..* networkx
+* nltk
+* numpy
+* networkx
 You can install these dependencies using pip:
 ```
 pip install nltk numpy networkx
